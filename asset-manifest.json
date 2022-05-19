@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.bed7dbf0.css",
+    "main.js": "/portfolio/static/js/main.68431388.js",
+    "static/media/landingpage1.jpg": "/portfolio/static/media/landingpage1.c845238bb168d574d1d8.jpg",
+    "static/media/landingpage2.jpg": "/portfolio/static/media/landingpage2.0a853ad102e47f764056.jpg",
+    "static/media/hompage2.jpg": "/portfolio/static/media/hompage2.2d2f2f0491188bbcaae7.jpg",
+    "static/media/homepage1.jpg": "/portfolio/static/media/homepage1.cfa776ea868b386a3b0a.jpg",
+    "static/media/picone.jpg": "/portfolio/static/media/picone.a5d1cb4a7a2fed4bd12e.jpg",
+    "static/media/articles1.jpg": "/portfolio/static/media/articles1.5da606a45b18edbfe685.jpg",
+    "static/media/registration2.jpg": "/portfolio/static/media/registration2.9e08f91e365967f43bb2.jpg",
+    "static/media/libraryhead1.jpg": "/portfolio/static/media/libraryhead1.346611ed4a56e10b06f4.jpg",
+    "static/media/projectpage1.jpg": "/portfolio/static/media/projectpage1.7cf757df84d7908ee593.jpg",
+    "static/media/links1.jpg": "/portfolio/static/media/links1.db105b7bd564935ef3c7.jpg",
+    "static/media/sitemap2.jpg": "/portfolio/static/media/sitemap2.60c84c84d74897a9c717.jpg",
+    "static/media/libraryhead3.jpg": "/portfolio/static/media/libraryhead3.d37f174685f41ddcf4ac.jpg",
+    "static/media/libraryhead2.jpg": "/portfolio/static/media/libraryhead2.6a6c7fe7392cfd5fa192.jpg",
+    "static/media/wireframe2.jpg": "/portfolio/static/media/wireframe2.5ec262dac067c18303dd.jpg",
+    "static/media/wfbuild.jpg": "/portfolio/static/media/wfbuild.0269433f7b40b0cb3b3d.jpg",
+    "static/media/mediadeck3.jpg": "/portfolio/static/media/mediadeck3.59b72da77baf9b953467.jpg",
+    "static/media/wireframe1.jpg": "/portfolio/static/media/wireframe1.afe9725ed8b853d7fe29.jpg",
+    "index.html": "/portfolio/index.html",
+    "main.bed7dbf0.css.map": "/portfolio/static/css/main.bed7dbf0.css.map",
+    "main.68431388.js.map": "/portfolio/static/js/main.68431388.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.bed7dbf0.css",
+    "static/js/main.68431388.js"
+  ]
+}
