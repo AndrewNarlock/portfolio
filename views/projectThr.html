@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title></title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <link rel="stylesheet" href="../styles/projects.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg bg-dark">
+        <div class="container">
+            <a class="navbar-brand text-white" href="#">Projects</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav ms-auto">
+                    <a class="nav-link text-white nav-text" href="../index.html">Home</a>
+
+
+                    <div class="dropdown nav-text">
+                        <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            View All Projects
+                        </a>
+
+                        <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                            <li><a class="dropdown-item" href="projectOne.html">Gym Review App</a></li>
+                            <li><a class="dropdown-item" href="projectTwo.html">Website Redesign</a></li>
+                            <li><a class="dropdown-item" href="projectThr.html">Portfolio Redesign</a></li>
+                            <li><a class="dropdown-item" href="projectFou.html">Wallframe Bulder App</a></li>
+                            <li><a class="dropdown-item" href="projectFiv.html">Newsletter Redesign</a></li>
+                            <li><a class="dropdown-item" href="projectSix.html">Bulma Framework Counter</a></li>
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container p-5">
+        <div class="row">
+            <h1 class="mb-5">My Portfolio Redesign</h1>
+        </div>
+        <div class="row">
+            <p>The main goal of this project was to redesign my portfolio to better represent everything I have learned
+                from college, coding bootcamps, and self studying. My original portfolio was built using WordPress, and
+                I wanted to use something that required more understanding of HTML, CSS, and JavaScript. The next
+                iteration of my portfolio was built using React which I decided was not necessary for this new design.
+                Instead, I wanted to focus more on the CSS and content layout of the portfolio, which is why I
+                implemented Bootstrap for the CSS framework. Another massive improvement from the last website is the
+                responsiveness of the componnets, such as the projects section carousel.
+            </p>
+            <p> Since bootstrap carosuels are limited on displaying multiple cards at once, I had to build a custom
+                carousel using JavaScript, CSS, and Bootstrap cards. Another cool feature is the hover effects on images
+                located in the project pages. I was able to create responsive images that allow the user to see the
+                images more clearly. The original WordPress portoflio can be found
+                <a href="https://dev-andrew-narlock-webfolio.pantheonsite.io/" target="_blank"
+                    rel="noopener noreferrer">here!</a> And the React portfolio can be found
+                <a href="https://gentle-beyond-26534.herokuapp.com/" target="_blank" rel="noopener noreferrer">here!</a>
+            </p>
+        </div>
+    </div>
+    <div class="container-fluid bg-dark p-md-5 pic-holder">
+        <div class="row justify-content-evenly image-holders">
+            <div class="col-md-4">
+                <h5 class="captions">React Hero Image...</h5>
+                <img src="../pics/projThr/projThrOne.jpg" class="pic pic-one" alt="">
+            </div>
+            <div class="col-md-4">
+                <h5 class="captions">WordPress Hero Image...</h5>
+                <img src="../pics/projThr/projThrTwo.jpg" class="pic pic-two" alt="">
+            </div>
+        </div>
+        <div class="row justify-content-evenly image-holders">
+            <div class="col-md-4">
+                <h5 class="captions">React Sections With Retractable Nav Menu...</h5>
+                <img src="../pics/projThr/projThrThr.jpg" class="pic pic-thr" alt="">
+            </div>
+            <div class="col-md-4">
+                <h5 class="captions">React Project View...</h5>
+                <img src="../pics/projThr/projThrFou.jpg" class="pic pic-fou" alt="">
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid text-center">
+        <div class="row">
+            <footer class="my-3">2022 Created By: Andrew Narlock</footer>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js"
+        integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.min.js"
+        integrity="sha384-ODmDIVzN+pFdexxHEHFBQH3/9/vQ9uori45z4JjnFsRydbmQbmL5t1tQ0culUzyK"
+        crossorigin="anonymous"></script>
+    <script src="" async defer></script>
+</body>
+
+</html>
