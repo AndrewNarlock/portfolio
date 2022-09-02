@@ -227,3 +227,13 @@ hr {
     max-width: 350px;
   }
 }
+
+@media (max-width: 470px) {
+  .btn-prev {
+    transform: translate(-80px, -320px);
+  }
+
+  .btn-next {
+    transform: translate(80px, -320px);
+  }
+}
