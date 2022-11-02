@@ -1,0 +1,337 @@
+.projects-head {
+    text-align: center;
+    font-size: 2em;
+    margin-top: 5%;
+    margin-bottom: 3%;
+}
+
+.c-container {
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 100%;
+    min-height: 550px;
+    min-width: 280px;
+}
+
+.carousel-container {
+    display: flex;
+    align-items: center;
+    min-height: 475px;
+    width: 63%;
+    min-width: 280px;
+    background-color: rgb(35, 55, 107);
+    box-shadow: inset 0px 0px 35px rgb(17, 28, 55);
+    overflow: hidden;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    max-height: 350px;
+    min-height: 350px;
+    min-width: 270px;
+    margin: 0px 50px;
+    background: white;
+    box-shadow: 0px 0px 25px rgb(17, 28, 55);
+    transition: transform 0.2s;
+}
+
+.card-img {
+    background: rgb(58, 95, 111);
+    min-height: 140px;
+}
+
+.card-title {
+    margin: 7% 0% 5% 0%;
+    max-width: 90%;
+    padding: 0px 0px 10px 30px;
+    font-size: .8em;
+    min-height: 50px;
+}
+
+.card:nth-child(1)>.card-title {
+    padding-top: 10px;
+}
+
+.card:nth-child(3)>.card-title {
+    padding-top: 10px;
+}
+
+.card-text {
+    max-width: 90%;
+    padding: 0px 20px 0px 30px;
+    font-size: .8em;
+    min-height: 50px;
+}
+
+.card-break {
+    align-self: center;
+    margin-top: 7%;
+    width: 80%;
+}
+
+.card-btn {
+    text-decoration: none;
+    border: none;
+    font-size: 1em;
+    font-weight: 400;
+    color: black;
+    background-color: white;
+    text-align: start;
+    margin: auto 20px 20px 20px;
+    padding: 15px;
+    transition: font-size .2s;
+}
+
+.card-btn:hover {
+    font-size: 1.2em;
+}
+
+.card-mover-btn {
+    position: absolute;
+}
+
+.btn {
+    font-size: 50px;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 3px;
+    height: 475px;
+    background: rgba(0, 0, 0, 0.424);
+}
+
+.btn:hover {
+    background-color: rgba(0, 0, 0, 0.722);
+}
+
+.prev-cont {
+    margin-right: 65%;
+}
+
+.next-cont {
+    margin-left: 65%;
+}
+
+@media (max-width: 2200px) {
+    .prev-cont {
+        margin-right: 65.3%;
+    }
+
+    .next-cont {
+        margin-left: 65.3%;
+    }
+}
+
+@media (max-width: 1950px) {
+    .prev-cont {
+        margin-right: 65.5%;
+    }
+
+    .next-cont {
+        margin-left: 65.5%;
+    }
+}
+
+@media (max-width: 1750px) {
+    .projects-head {
+        font-size: 1.8em;
+    }
+
+    .prev-cont {
+        margin-right: 65.8%;
+    }
+
+    .next-cont {
+        margin-left: 65.8%;
+    }
+}
+
+@media (max-width: 1550px) {
+    .prev-cont {
+        margin-right: 66.2%;
+    }
+
+    .next-cont {
+        margin-left: 66.2%;
+    }
+}
+
+@media (max-width: 1350px) {
+    .projects-head {
+        font-size: 1.5em;
+    }
+
+    .prev-cont {
+        margin-right: 66.6%;
+    }
+
+    .next-cont {
+        margin-left: 66.6%;
+    }
+}
+
+@media (max-width: 1200px) {
+    .prev-cont {
+        margin-right: 67%;
+    }
+
+    .next-cont {
+        margin-left: 67%;
+    }
+}
+
+@media (max-width: 1100px) {
+    .projects-head{
+        margin-bottom: 5%;
+    }
+
+    .prev-cont {
+        margin-right: 67.3%;
+    }
+
+    .next-cont {
+        margin-left: 67.3%;
+    }
+}
+
+@media (max-width: 1000px) {
+    .prev-cont {
+        margin-right: 67.8%;
+    }
+
+    .next-cont {
+        margin-left: 67.8%;
+    }
+}
+
+@media (max-width: 900px) {
+    .prev-cont {
+        margin-right: 68%;
+    }
+
+    .next-cont {
+        margin-left: 68%;
+    }
+}
+
+@media (max-width: 850px) {
+    .prev-cont {
+        margin-right: 69%;
+    }
+
+    .next-cont {
+        margin-left: 69%;
+    }
+}
+
+@media (max-width: 700px) {
+    .projects-head{
+        margin-bottom: 10%;
+    }
+
+    .prev-cont {
+        margin-right: 70%;
+    }
+
+    .next-cont {
+        margin-left: 70%;
+    }
+}
+
+@media(max-width: 630px) {
+    .prev-cont {
+        margin-right: 71%;
+    }
+
+    .next-cont {
+        margin-left: 71%;
+    }
+}
+
+
+@media (max-width: 600px) {
+    .projects-head{
+        margin-bottom: 15%;
+    }
+
+}
+
+@media (max-width: 580px) {
+    .prev-cont {
+        margin-right: 72%;
+    }
+
+    .next-cont {
+        margin-left: 72%;
+    }
+}
+
+@media (max-width: 550px) {
+    .prev-cont {
+        margin-right: 73%;
+    }
+
+    .next-cont {
+        margin-left: 73%;
+    }
+}
+
+@media (max-width: 540px) {
+    .prev-cont {
+        margin-right: 74%;
+    }
+
+    .next-cont {
+        margin-left: 74%;
+    }
+}
+
+@media (max-width: 530px) {
+    .card:first-child {
+        margin-left: 10px;
+    }
+
+    .carousel-container {
+        width: 70%;
+    }
+
+    .card-mover-btn {
+        position: relative;
+        display: inline;
+    }
+
+    .btn {
+        padding: 0%;
+        margin: 0%;
+        width: 68%;
+        height: 50px;
+        font-size: 2em;
+    }
+
+    .prev-cont {
+        width: 40%;
+        margin: 0%;
+        text-align: end;
+    }
+
+    .next-cont {
+        width: 40%;
+        margin: 0%;
+    }
+}
+
+@media (max-width: 450px) {
+    .projects-head{
+        margin-bottom: 20%;
+    }
+}
+
+@media (max-width: 410px) {
+    .card:first-child {
+        margin-left: 5px;
+    }
+}

@@ -1,0 +1,13 @@
+.footer-text {
+    color: white;
+    text-align: center;
+    padding: 1% 0%;
+    background-color: rgb(35, 55, 107);
+}
+
+@media (max-width: 450px) {
+    .footer-text {
+        font-size: .7em;
+    }
+
+}
