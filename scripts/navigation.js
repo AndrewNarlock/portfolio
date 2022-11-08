@@ -30,5 +30,3 @@ dropdownSmall.addEventListener('click', () => {
         trackSmall--;
     }
 })
-
-
