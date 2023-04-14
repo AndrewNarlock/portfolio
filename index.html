@@ -1,203 +1,182 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
-    <!-- Google tag (gtag.js) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-WTJ0JLHK32"></script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
-        gtag('js', new Date());
-
-        gtag('config', 'G-WTJ0JLHK32');
-     </script>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Andrew Narlock Design Portfolio</title>
-    <meta name="description" content="">
+    <title>Narlock Web Design</title>
+    <meta name="description" content="Portfolio for Narlock Web Design. Designed by Andrew Narlock, 2023. Gig Harbor, Washington.">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="styles/home/app.css">
-    <link rel="stylesheet" href="styles/home/heroStyle.css">
-    <link rel="stylesheet" href="styles/home/skillStyle.css">
-    <link rel="stylesheet" href="styles/home/projectStyle.css">
-    <link rel="stylesheet" href="styles/home/aboutStyle.css">
-    <link rel="stylesheet" href="styles/home/contactStyle.css">
-    <link rel="stylesheet" href="styles/home/footerStyle.css">
+    <link href="https://fonts.googleapis.com/css2?family=Staatliches&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/app.css">
+    <link rel="stylesheet" href="styles/navigation.css">
+    <link rel="stylesheet" href="styles/home/hero.css">
+    <link rel="stylesheet" href="styles/home/skills.css">
+    <link rel="stylesheet" href="styles/home/about.css">
+    <link rel="stylesheet" href="styles/home/carousel.css">
+    <link rel="stylesheet" href="styles/footer.css">
 </head>
 
 <body>
-    <section class="landing-container">
-        <div class="hero-image">
-            <div class="hero-text">
-                <h1 class="hero-title">Andrew Narlock Design</h1>
-                <h1 class="hero-title-shadow">Andrew Narlock Design</h1>
-                <p class="hero-p">Welcome to my web design portfolio!</p>
-                <p class="hero-p-shadow">Welcome to my web design portfol</p>
-                <a href="#projects" class="hero-butt">View Projects!</a>
-                <p class="hero-butt-shadow">View Project</p>
-            </div>
+    <nav class="navigation">
+        <div class="navigation-wrapper">
+            <img src="styles/pictures/NWDLogoSmall.png" loading="lazy" alt="NWD Logo." class="navigation-icon">
+
+            <ul class="navigation-menu">
+                <li class="navigation-link-holder"><a href="index.html" class="navigation-link">HOME</a></li>
+                <li class="navigation-link-holder projects"><button class="projects-button-navigation">PROJECTS</button></li>
+                <li class="navigation-link-holder"><a href="views/about.html" class="navigation-link">ABOUT</a></li>
+                <li class="navigation-link-holder"><a href="views/contact.html" class="navigation-link">CONTACT</a></li>
+            </ul>
+
+            <button class="menu-collapser">
+                <hr class="hamburger-patty">
+                <hr class="hamburger-patty">
+                <hr class="hamburger-patty">
+            </button>
         </div>
+
+        <ul class="navigation-menu-collapse">
+            <li class="navigation-link-holder-collapse"><a href="index.html" class="navigation-link-collapse">HOME</a></li>
+            <li class="navigation-link-holder-collapse projects-two"><button class="projects-button-navigation">PROJECTS</button></li>
+            <li class="navigation-link-holder-collapse"><a href="views/about.html" class="navigation-link-collapse">ABOUT</a></li>
+            <li class="navigation-link-holder-collapse"><a href="views/contact.html" class="navigation-link-collapse">CONTACT</a></li>
+        </ul>
+
+        <ul class="projects-menu-collapse">
+            <li class="projects-link-holder-collapse"><a href="views/projectOne.html" class="projects-link-collapse">Website Templates / Component Library</a></li>
+            <li class="projects-link-holder-collapse"><a href="views/projectTwo.html" class="projects-link-collapse">Gym Review Website</a></li>
+            <li class="projects-link-holder-collapse"><a href="views/projectThree.html" class="projects-link-collapse">Website Redesign</a></li>
+            <li class="projects-link-holder-collapse"><a href="views/projectFour.html" class="projects-link-collapse">Online Newsletter Redesign</a></li>
+            <li class="projects-link-holder-collapse"><a href="views/projectFive.html" class="projects-link-collapse">Media Deck</a></li>
+        </ul>
+    </nav>
+
+    <section class="hero-image-container">
+        <div class="hero-greeting-container">
+            <h1 class="hero-title">Narlock Web Design</h1>
+            <p class="hero-message">Welcome to my web design portfolio.</p>
+            <a href="views/projectOne.html"><button class="hero-button">View Projects</button></a>
+        </div>
+        <img src="styles/pictures/NWDLogo.png" loading="lazy" alt="NWD Logo Image black and white." class="hero-image">
     </section>
 
-    <section class="skills">
-        <div class="break-image">
-            <h2 class="skill-head">Skills / Technology</h2>
-            <div class="skill-container">
+    <main class="home-content">
+        <section class="skills-container">
+            <h2 class="skills-header">Skills / Tools</h2>
+            <p class="skills-message">I design websites and applications with a focus on the end-user. Here are some of
+                the techniques and tools that I use for my projects.</p>
+            <div class="skillcard-container">
+                <div class="skills-card">
+                    <h2 class="skills-title">Design Strategies:</h2>
+                    <ul class="skill-list">
+                        <li class="skill">User-Centered Design</li>
+                        <li class="skill">Responsive Design</li>
+                        <li class="skill">Accessibility</li>
+                        <li class="skill">Content Management</li>
+                        <li class="skill">Graphic Design</li>
+                    </ul>
+                </div>
 
-                <div class="skill-block">
-                    <h2 class="skill-type">Design</h2>
-                    <p class="skill-name">User-Centered Design</p>
-                    <p class="skill-name">Responsive Design</p>
-                    <p class="skill-name">Figma</p>
-                    <p class="skill-name">Site Mapping</p>
-                    <p class="skill-name">Wire Framing</p>
-                    <p class="skill-name">Prototyping</p>
+                <div class="skills-card">
+                    <h2 class="skills-title">Design Tools:</h2>
+                    <ul class="skill-list">
+                        <li class="skill">Figma</li>
+                        <li class="skill">Photoshop</li>
+                        <li class="skill">Site Maps</li>
+                        <li class="skill">Wire Frames</li>
+                        <li class="skill">Prototypes</li>
+                    </ul>
                 </div>
-                <div class="skill-block">
-                    <h2 class="skill-type">Front-End</h2>
-                    <p class="skill-name">HTML</p>
-                    <p class="skill-name">CSS</p>
-                    <p class="skill-name">JavaScript</p>
-                    <p class="skill-name">React</p>
+
+                <div class="skills-card">
+                    <h2 class="skills-title">Front-End:</h2>
+                    <ul class="skill-list">
+                        <li class="skill">HTML</li>
+                        <li class="skill">CSS</li>
+                        <li class="skill">JavaScript</li>
+                        <li class="skill">React JS</li>
+                        <li class="skill">Bootstrap</li>
+                    </ul>
                 </div>
-                <div class="skill-block">
-                    <h2 class="skill-type">Back-End</h2>
-                    <p class="skill-name">Node JS</p>
-                    <p class="skill-name">Express</p>
-                    <p class="skill-name">Mongoose</p>
-                </div>
-                <div class="skill-block">
-                    <h2 class="skill-type">Databases</h2>
-                    <p class="skill-name">MySql</p>
-                    <p class="skill-name">MongoDB</p>
+
+                <div class="skills-card">
+                    <h2 class="skills-title">Back-End:</h2>
+                    <ul class="skill-list">
+                        <li class="skill">Node JS</li>
+                        <li class="skill">Express</li>
+                        <li class="skill">MongoDB</li>
+                        <li class="skill">MySQL</li>
+                    </ul>
                 </div>
             </div>
-        </div>
-    </section>
+        </section>
 
-    <hr id="projects">
+        <section class="about-container">
+            <img src="styles/pictures/NWDLogoTwo.png" loading="lazy" alt="NWD Logo Black." class="about-image">
+            <div class="about-text-container">
+                <h2 class="about-title">About Narlock Web Design:</h2>
+                <p class="about-content">My name is Andrew Narlock and I graduated from the University of Washington
+                    with a Bachelors in Communications, where I studied UX and web design. I enjoy building and
+                    designing websites in my free time. My
+                    approach to web design is focused on the intended user and building what best suites their needs.
+                </p>
+                <br>
+                <p class="about-content">I offer custom designs, ideal for small - medium size
+                    businesses. My services include consulting, static web design and developement, graphic design, and
+                    full stack application design and developement. Prices will vary depending on the scope of the
+                    project. For questions or business inquiries, please contact me at <a
+                        href="mailto:narlocka@gmail.com" class="email-link">narlocka@gmail.com</a>
+                </p>
+            </div>
+        </section>
 
-    <section class="projects">
-        <h2 class="projects-head">Projects</h2>
-        <div class="carousel">
+        <section class="carousel">
+            <h2 class="carousel-header">Projects:</h2>
+
             <div class="carousel-container">
-                <div class="card">
-                    <img class="card-img" src="styles/pics/projectSix/projSixTwo.jpg">
-                    </img>
-                    <div class="card-title">
-                        <h2>Front-End UI Library</h2>
-                    </div>
-                    <div class="card-text">
-                        <p>The goal of this project was to build a library of ...</p>
-                    </div>
-                    <hr class="card-break">
-                    <a href="views/projectSix.html" class="card-btn">View Project →</a>
-                </div>
-
-                <div class="card">
-                    <img class="card-img" src="styles/pics/projectOne/projOneOne.jpg">
-                    </img>
-                    <div class="card-title">
-                        <h2>Gym Review App</h2>
-                    </div>
-                    <div class="card-text">
-                        <p>The goal of this project was to build a full stack web ...</p>
-                    </div>
-                    <hr class="card-break">
-                    <a href="views/projectOne.html" class="card-btn">View Project →</a>
-                </div>
-
-                <div class="card">
-                    <img class="card-img" src="styles/pics/projectTwo/projTwoTwo.jpg">
-                    </img>
-                    <div class="card-title">
-                        <h2>Local Business Website Redesign</h2>
-                    </div>
-                    <div class="card-text">
-                        <p>This project was completed as a part of my Advanced Web ...</p>
-                    </div>
-                    <hr class="card-break">
-                    <a href="views/projectTwo.html" class="card-btn">View Project →</a>
-                </div>
-
-                <div class="card">
-                    <img class="card-img" src="styles/pics/projectThree/projThrOne.jpg">
-                    </img>
-                    <div class="card-title">
-                        <h2>Portfolio Design</h2>
-                    </div>
-                    <div class="card-text">
-                        <p>The main goal of this project is to create a portfolio ...</p>
-                    </div>
-                    <hr class="card-break">
-                    <a href="views/projectThree.html" class="card-btn">View Project →</a>
-                </div>
-
-                <div class="card">
-                    <img class="card-img" src="styles/pics/projectFour/projFouOne.jpg">
-                    </img>
-                    <div class="card-title">
-                        <h2>Wallframe Blueprint Generator</h2>
-                    </div>
-                    <div class="card-text">
-                        <p>The goal of this small project was to build an app that creates ...</p>
-                    </div>
-                    <hr class="card-break">
-                    <a href="views/projectFour.html" class="card-btn">View Project →</a>
-                </div>
-
-                <div class="card">
-                    <img class="card-img" src="styles/pics/projectFive/projFivTwo.jpg">
-                    </img>
-                    <div class="card-title">
-                        <h2>UWT Newsletter Redesign</h2>
-                    </div>
-                    <div class="card-text">
-                        <p>This was my first web design project that I completed ...</p>
-                    </div>
-                    <hr class="card-break">
-                    <a href="views/projectFive.html" class="card-btn">View Project →</a>
-                </div>
+                <div class="image-container"></div>
             </div>
 
-            <div class="prev-cont card-mover-btn">
-                <button class="prev btn">&#60;</button>
+            <div class="carousel-button-container">
+                <button class="carousel-left carousel-button">&lt;</button>
+                <button class="carousel-right carousel-button">&gt;</button>
             </div>
-            <div class="next-cont card-mover-btn">
-                <button class="next btn">&#62;</button>
-            </div>
+
+        </section>
+
+
+    </main>
+
+    <footer class="footer">
+        <div class="footer-logo-container">
+            <img src="styles/pictures/NWDLogoSmall.png" loading="lazy" alt="NWD Logo white." class="footer-logo">
         </div>
-    </section>
 
 
-    <section class="about">
-        <h2 class="about-head">About</h2>
-        <div class="about-content">
-            <img src="styles/pics/logos/ANDIconBlue.jpg" alt="AND Logo Blue" class="about-image">
-            <p class="about-text">My name is Andrew Narlock and I graduated from the University of Washington with a
-                Bachelors in Communications. I have also completed The Web Developer Bootcamp 2022 by Colt Steele,
-                hosted on Udemy, which has exposed me to more full stack developemt strategies. My studies focus on User
-                Centered Design strategies and web developement. I am highly interested in furthering my understanding
-                of web design and user experience research and I am ultimately interested in designing and developing
-                different software and games. The projects section hosts a list of projects that I have been able to
-                participate in during my studies along with some personal web design projects.</p>
+        <div class="footer-navigation-container">
+            <h2 class="footer-navigation-header">Thanks for visiting!</h2>
+            <ul class="footer-nav-links">
+                <li class="footer-link-list"><a href="index.html" class="footer-link">HOME</a></li>
+                <li class="footer-link-list"><a href="views/projectOne.html" class="footer-link">PROJECTS</a></li>
+                <li class="footer-link-list"><a href="views/about.html" class="footer-link">ABOUT</a></li>
+                <li class="footer-link-list"><a href="views/contact.html" class="footer-link">CONTACT</a></li>
+            </ul>
         </div>
-    </section>
 
+        <div class="footer-contact-container">
+            <h3 class="footer-contact-header">Contact Information:</h3>
+            <p class="contact-info">For questions or business inquiries, please contact at <a
+                    href="mailto:narlocka@gmail.com" class="footer-email">narlocka@gmail.com</a></p>
 
-    <section class="contact">
-        <h2 class="contact-head">Contact</h2>
-        <p class="contact-text">For any questions feel free to reach out at narlocka@gmail.com</p>
-    </section>
+            <p class="footer-tag">This website was designed by Andrew Narlock - Narlock Web Design 2023</p>
+        </div>
+    </footer>
 
-    <section class="footer">
-        <div class="footer-text">2022 Designed by Andrew Narlock</div>
-    </section>
-
-
-    <script src="scripts/app.js" async defer></script>
-
+    <script src="scripts/navigation.js" async defer></script>
+    <script src="scripts/carouseldata.js" async defer></script>
+    <script src="scripts/carousel.js" async defer></script>
 </body>
 
 </html>
