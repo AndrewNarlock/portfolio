@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Project: Media Deck Prototype</title>
+    <meta name="description" content="This is a project page for my Media Deck prototype.">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Staatliches&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../styles/app.css">
+    <link rel="stylesheet" href="../styles/projects/project.css">
+    <link rel="stylesheet" href="../styles/navigation.css">
+    <link rel="stylesheet" href="../styles/footer.css">
+</head>
+
+<body>
+    <nav class="navigation">
+        <div class="navigation-wrapper">
+            <img src="../styles/pictures/NWDLogoSmall.png" alt="Small NWD Logo in white." class="navigation-icon">
+
+            <ul class="navigation-menu">
+                <li class="navigation-link-holder"><a href="../index.html" class="navigation-link">HOME</a></li>
+                <li class="navigation-link-holder projects"><button class="projects-button-navigation">PROJECTS</button></li>
+                <li class="navigation-link-holder"><a href="about.html" class="navigation-link">ABOUT</a></li>
+                <li class="navigation-link-holder"><a href="contact.html" class="navigation-link">CONTACT</a></li>
+            </ul>
+
+            <button class="menu-collapser">
+                <hr class="hamburger-patty">
+                <hr class="hamburger-patty">
+                <hr class="hamburger-patty">
+            </button>
+        </div>
+
+        <ul class="navigation-menu-collapse">
+            <li class="navigation-link-holder-collapse"><a href="../index.html" class="navigation-link-collapse">HOME</a></li>
+            <li class="navigation-link-holder-collapse projects-two"><button class="projects-button-navigation">PROJECTS</button></li>
+            <li class="navigation-link-holder-collapse"><a href="about.html" class="navigation-link-collapse">ABOUT</a></li>
+            <li class="navigation-link-holder-collapse"><a href="contact.html" class="navigation-link-collapse">CONTACT</a></li>
+        </ul>
+
+        <ul class="projects-menu-collapse">
+            <li class="projects-link-holder-collapse"><a href="projectOne.html" class="projects-link-collapse">Website Templates / Component Library</a></li>
+            <li class="projects-link-holder-collapse"><a href="projectTwo.html" class="projects-link-collapse">Gym Review Website</a></li>
+            <li class="projects-link-holder-collapse"><a href="projectThree.html" class="projects-link-collapse">Website Redesign</a></li>
+            <li class="projects-link-holder-collapse"><a href="projectFour.html" class="projects-link-collapse">Online Newsletter Redesign</a></li>
+            <li class="projects-link-holder-collapse"><a href="projectFive.html" class="projects-link-collapse">Media Deck</a></li>
+        </ul>
+    </nav>
+
+    <main class="project">
+        <h2 class="project-header">Media Deck Prototype</h2>
+        <article class="project-container">
+            <div class="project-block">
+                <p class="project-description">The goal of this project was to create a prototype of 
+                    a Media Deck. A Media Deck is supposed to be a page that allows users who only 
+                    have a single monitor to have several, manipulatable, windows that are embedded 
+                    onto a single page. The prototype can be used here: <a href="https://andrewnarlock.github.io/MediaDeck/" target="_blank" class="project-link">Media Deck</a>.
+                    <br>
+                    <br>
+                    The prototype is only capable of embedding YouTube videos as I was more focused 
+                    on learning about DOM manipulation and JavaScript interactions with this project. 
+                    A finished product would have the ability to embed any website such as 
+                    livestreams, articles, etc. The code for this prototype can be seen here: <a href="https://github.com/AndrewNarlock/MediaDeck" target="_blank" class="project-link">Media Deck Repo</a></p>
+                <img src="../styles/pictures/projectFive/mDOne.png" alt="Screenshot of Media Deck from users perspective." class="project-image">
+            </div>
+        </article>
+    </main>
+
+    <footer class="footer">
+        <div class="footer-logo-container">
+            <img src="../styles/pictures/NWDLogoSmall.png" alt="NWD Logo small in white." class="footer-logo">
+        </div>
+
+
+        <div class="footer-navigation-container">
+            <h2 class="footer-navigation-header">Thanks for visiting!</h2>
+            <ul class="footer-nav-links">
+                <li class="footer-link-list"><a href="../index.html" class="footer-link">HOME</a></li>
+                <li class="footer-link-list"><a href="projectOne.html" class="footer-link">PROJECTS</a></li>
+                <li class="footer-link-list"><a href="about.html" class="footer-link">ABOUT</a></li>
+                <li class="footer-link-list"><a href="contact.html" class="footer-link">CONTACT</a></li>
+            </ul>
+        </div>
+
+        <div class="footer-contact-container">
+            <h3 class="footer-contact-header">Contact Information:</h3>
+            <p class="contact-info">For questions or business inquiries, please contact at <a
+                    href="mailto:narlocka@gmail.com" class="footer-email">narlocka@gmail.com</a></p>
+
+            <p class="footer-tag">This website was designed by Andrew Narlock - Narlock Web Design 2023</p>
+        </div>
+    </footer>
+
+
+    <script src="../scripts/navigation.js" async defer></script>
+</body>
+
+</html>
