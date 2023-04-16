@@ -1,0 +1,113 @@
+.projects-page-header-container {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.projects-page-header {
+    text-align: center;
+    font-size: 26px;
+    letter-spacing: 1.5px;
+    line-height: 2;
+    width: 50%;
+    padding-bottom: 20px;
+    border-bottom: 1px solid black;
+}
+
+.projects-page-preface {
+    text-align: center;
+    width: 80%;
+    font-size: 16px;
+    letter-spacing: 1.5px;
+    margin-top: 25px;
+    line-height: 2;
+}
+
+.post-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(36, 36, 36);
+    margin: 75px 0px;
+    padding-bottom: 75px;
+}
+
+.post-link {
+    border: 1px solid black;
+    width: 60%;
+    text-decoration: none;
+    color: black;
+    margin-top: 75px;
+    background-color: white;
+    padding: 10px;
+    box-shadow: 0px 0px 15px black;
+    transition: width .2s;
+}
+
+.post-link:hover {
+    width: 65%;
+}
+
+.post {
+    display: flex;
+    align-items: center;
+}
+
+.post-word-container {
+    margin: 25px;
+    width: 70%;
+}
+
+.post-title {
+    font-size: 18px;
+    letter-spacing: 1.5px;
+    line-height: 2;
+}
+
+.post-description {
+    font-size: 14px;
+    letter-spacing: 1.5px;
+    line-height: 2;
+}
+
+.post-image {
+    border: 1px solid black;
+    width: 30%;
+}
+
+@media(max-width: 1500px) {
+    .post-link {
+        width: 80%;
+    }
+
+    .post-link:hover {
+        width: 85%;
+    }
+}
+
+@media(max-width: 750px) {
+    .post-link {
+        width: 95%;
+    }
+
+    .post-link:hover {
+        width: 100%;
+    }
+}
+
+@media(max-width: 600px) {
+    .post {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .post-image {
+        margin-top: 25px;
+        width: 90%;
+    }
+
+    .post-word-container {
+        width: 90%;
+    }
+}
