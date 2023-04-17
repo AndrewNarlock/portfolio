@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Project: Website Templates / Component Library</title>
+    <meta name="description" content="A project page for my Website templates and component library.">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Staatliches&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../styles/app.css">
+    <link rel="stylesheet" href="../styles/navigation.css">
+    <link rel="stylesheet" href="../styles/projects/project.css">
+    <link rel="stylesheet" href="../styles/footer.css">
+</head>
+
+<body>
+    <nav class="navigation">
+        <div class="navigation-wrapper">
+            <img src="../styles/pictures/NWDLogoSmall.png" alt="NWD Logo." class="navigation-icon">
+
+            <ul class="navigation-menu">
+                <li class="navigation-link-holder"><a href="../index.html" class="navigation-link">HOME</a></li>
+                <li class="navigation-link-holder"><a href="projects.html" class="navigation-link">PROJECTS</a></li>
+                <li class="navigation-link-holder"><a href="about.html" class="navigation-link">ABOUT</a></li>
+                <li class="navigation-link-holder"><a href="contact.html" class="navigation-link">CONTACT</a></li>
+            </ul>
+
+            <button class="menu-collapser">
+                <hr class="hamburger-patty">
+                <hr class="hamburger-patty">
+                <hr class="hamburger-patty">
+            </button>
+        </div>
+
+        <ul class="navigation-menu-collapse">
+            <li class="navigation-link-holder-collapse"><a href="../index.html" class="navigation-link-collapse">HOME</a></li>            
+            <li class="navigation-link-holder-collapse"><a href="projects.html" class="navigation-link-collapse">PROJECTS</a></li>
+            <li class="navigation-link-holder-collapse"><a href="about.html" class="navigation-link-collapse">ABOUT</a></li>
+            <li class="navigation-link-holder-collapse"><a href="contact.html" class="navigation-link-collapse">CONTACT</a></li>
+        </ul>
+    </nav>
+
+    <main class="project">
+        <h2 class="project-header">Website Templates / Component Library</h2>
+        <article class="project-container">
+            <div class="project-block">
+                <p class="project-description">The goal of this project is to build a library of components and
+                    templates that are easy to copy, paste, and redesign for any custom website. The library currently
+                    holds basic components such as carousels, navigation bars, headers, as well as full templates for
+                    basic static websites. The library can be found here: <a href="https://github.com/AndrewNarlock/website_components" target="_blank" class="project-link">Component Library</a></p>
+                <img src="../styles/pictures/projectOne/projectOneOne.png" alt="Component library github files." class="project-image">
+            </div>
+            <div class="project-block">
+                <img src="../styles/pictures/projectOne/projectOneTwo.png" alt="Component library codepen." class="project-image">
+                <p class="project-description">Each component consists of basic HTML, CSS, and JavaScript blocks that
+                    can be copy and pasted into any custom website. Codepens are also available to view how each
+                    component works. Each component is responsive and accessible. New components are being worked on and
+                    will be added to the library in the future.</p>
+            </div>
+            <div class="project-block">
+                <p class="project-description">The library also includes static website templates that are built using
+                    the components found in the library. They are easy to copy and redesign for any basic website. This
+                    portfolio was built using the templates found in this library. I plan on adding basic routing and
+                    server templates for full stack websites in the future.</p>
+                <img src="../styles/pictures/projectOne/projectOneThree.png" alt="Restaurant Website template." class="project-image">
+            </div>
+        </article>
+    </main>
+
+    <footer class="footer">
+        <div class="footer-logo-container">
+            <img src="../styles/pictures/NWDLogoSmall.png" alt="NWD Logo" class="footer-logo">
+        </div>
+
+        <div class="footer-navigation-container">
+            <h2 class="footer-navigation-header">Thanks for visiting!</h2>
+            <ul class="footer-nav-links">
+                <li class="footer-link-list"><a href="../index.html" class="footer-link">HOME</a></li>
+                <li class="footer-link-list"><a href="projects.html" class="footer-link">PROJECTS</a></li>
+                <li class="footer-link-list"><a href="about.html" class="footer-link">ABOUT</a></li>
+                <li class="footer-link-list"><a href="contact.html" class="footer-link">CONTACT</a></li>
+            </ul>
+        </div>
+
+        <div class="footer-contact-container">
+            <h3 class="footer-contact-header">Contact Information:</h3>
+            <p class="contact-info">For questions or business inquiries, please contact at <a
+                    href="mailto:narlocka@gmail.com" class="footer-email">narlocka@gmail.com</a></p>
+
+            <p class="footer-tag">This website was designed by Andrew Narlock - Narlock Web Design 2023</p>
+        </div>
+    </footer>
+
+
+    <script src="../scripts/navigation.js" async defer></script>
+</body>
+
+</html>
