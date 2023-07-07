@@ -1,0 +1,284 @@
+body {
+    user-select: none;
+    overflow-x: hidden;
+}
+
+.animation-container {
+    background: linear-gradient(rgb(9, 0, 30) 30%, rgb(71, 10, 69));
+    width: 100%;
+    height: 1440px;
+}
+
+.title-container {
+    margin-top: 150px;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.title-narlock {
+    width: 80%;
+    font-size: 75px;
+    display: flex;
+    justify-content: space-evenly;
+    color: white;
+}
+
+.title-web {
+    margin: 100px 0px;
+    width: 50%;
+    font-size: 75px;
+    display: flex;
+    justify-content: space-evenly;
+    color: white;
+}
+
+.title-design {
+    width: 70%;
+    font-size: 75px;
+    display: flex;
+    justify-content: space-evenly;
+    color: white;
+}
+
+.title-letter {
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+
+.stars-container {
+    position: absolute;
+    width: 100%;
+    height: 720px;
+}
+
+.star {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    background-color: white;
+    transition: all 1s;
+}
+
+.mountains-container {
+    position: absolute;
+    top: 700px;
+    width: 100%;
+    height: 500px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+}
+
+.mountain-range {
+    width: 100%;
+    height: 500px;
+    overflow: hidden;
+    display: flex;
+    align-items: end;
+}
+
+.mountain-one {
+    margin-left: -100px;
+    width: 450px;
+    height: 400px;
+    background-color: rgb(0, 0, 0);
+    transform: rotate(43deg) skew(-15deg);
+}
+
+.mountain-two {
+    margin-left: -150px;
+    width: 300px;
+    height: 300px;
+    background-color: rgb(0, 0, 0);
+    transform: rotate(43deg) skew(-15deg);
+}
+
+.mountain-three {
+    width: 350px;
+    height: 350px;
+    background-color: rgb(0, 0, 0);
+    transform: rotate(35deg) skew(-10deg);
+}
+
+.mountain-four {
+    margin-left: -150px;
+    width: 350px;
+    height: 300px;
+    background-color: rgb(0, 0, 0);
+    transform: rotate(35deg) skew(-10deg);
+}
+
+.mountain-five {
+    margin-left: -50px;
+    width: 300px;
+    height: 350px;
+    background-color: rgb(0, 0, 0);
+    transform: rotate(40deg) skew(-10deg);
+}
+
+.mountain-six {
+    width: 450px;
+    height: 320px;
+    background-color: rgb(0, 0, 0);
+    transform: rotate(50deg) skew(5deg);
+}
+
+.mountain-seven {
+    margin-left: -250px;
+    width: 400px;
+    height: 375px;
+    background-color: rgb(0, 0, 0);
+    transform: rotate(50deg) skew(5deg);
+}
+
+.mountain-eight {
+    margin-left: -50px;
+    width: 450px;
+    height: 400px;
+    background-color: rgb(0, 0, 0);
+    transform: rotate(43deg) skew(-15deg);
+}
+
+.mountain-nine {
+    width: 300px;
+    height: 350px;
+    background-color: rgb(0, 0, 0);
+    transform: rotate(40deg) skew(-10deg);
+}
+
+.mountain-ten {
+    margin-left: -150px;
+    width: 400px;
+    height: 350px;
+    background-color: rgb(0, 0, 0);
+    transform: rotate(40deg) skew(-10deg);
+}
+
+.mountain-eleven {
+    width: 450px;
+    height: 400px;
+    background-color: rgb(0, 0, 0);
+    transform: rotate(43deg) skew(-15deg);
+}
+
+.mountain-base {
+    width: 100%;
+    height: 200px;
+    margin-top: -200px;
+    background-color: black;
+}
+
+.campground-container {
+    overflow: hidden;
+    position: absolute;
+    top: 1200px;
+    width: 100%;
+    height: 550px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+}
+
+.camp-base {
+    position: absolute;
+    height: 350px;
+    background: radial-gradient(closest-side, rgba(144, 94, 8, 0.674), rgba(0, 0, 0, 0));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.welcome-message-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 1370px;
+}
+
+.welcome-message {
+    text-align: center;
+    width: 80%;
+    color: rgb(0, 0, 0);
+    font-size: 75px;
+    letter-spacing: 30px;
+}
+
+.ufo-container {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: fit-content;
+    height: fit-content;
+}
+
+.ufo-orb {
+    position: absolute;
+    z-index: 3;
+    width: 200px;
+    height: 100px;
+    border-radius: 50% 50% 20% 20%;
+    background: radial-gradient(circle at top, rgba(237, 235, 235, 0.872) 2%, rgb(41, 67, 98) 80%);
+}
+
+.ufo-disk {
+    position: absolute;
+    transform: translateY(50px);
+    z-index: 2;
+    width: 350px;
+    height: 100px;
+    border-radius: 50%;
+    background: radial-gradient(circle at top, rgba(172, 172, 172, 0.872) 2%, rgb(70, 70, 70) 80%);
+}
+
+.ufo-light {
+    position: absolute;
+    height: 100px;
+    background: radial-gradient(closest-side, rgba(174, 174, 174, 0.674), rgba(0, 0, 0, 0));
+}
+
+@keyframes floating {
+    from {
+        transform: translate(0, 0px);
+    }
+
+    65% {
+        transform: translate(0, 15px);
+    }
+
+    to {
+        transform: translate(0, -0px);
+    }
+}
+
+@media (max-width: 1000px) {
+    .welcome-message {
+        letter-spacing: 15px;
+        font-size: 40px;
+    }
+
+    .title-letter {
+        font-size: 50px;
+    }
+
+    .ufo-orb {
+        width: 100px;
+        height: 50px;
+    }
+
+    .ufo-disk {
+        width: 175px;
+        height: 50px;
+        transform: translateY(25px);
+    }
+}
