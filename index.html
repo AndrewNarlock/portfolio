@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Narlock Web Design</title>
+    <meta name="description" content="Portfolio for Narlock Web Design. Designed by Andrew Narlock, 2023. Gig Harbor, Washington.">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Staatliches&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/app.css">
+    <link rel="stylesheet" href="styles/navigation.css">
+    <link rel="stylesheet" href="styles/home/hero.css">
+    <link rel="stylesheet" href="styles/home/skills.css">
+    <link rel="stylesheet" href="styles/home/about.css">
+    <link rel="stylesheet" href="styles/home/carousel.css">
+    <link rel="stylesheet" href="styles/footer.css">
+</head>
+
+<body>
+    <nav class="navigation">
+        <div class="navigation-wrapper">
+            <img src="styles/pictures/NWDLogoSmall.png" loading="lazy" alt="NWD Logo." class="navigation-icon">
+
+            <ul class="navigation-menu">
+                <li class="navigation-link-holder"><a href="index.html" class="navigation-link">HOME</a></li>
+                <li class="navigation-link-holder"><a href="views/projects.html" class="navigation-link">PROJECTS</a></li>
+                <li class="navigation-link-holder"><a href="views/about.html" class="navigation-link">ABOUT</a></li>
+                <li class="navigation-link-holder"><a href="views/contact.html" class="navigation-link">CONTACT</a></li>
+            </ul>
+
+            <button class="menu-collapser">
+                <hr class="hamburger-patty">
+                <hr class="hamburger-patty">
+                <hr class="hamburger-patty">
+            </button>
+        </div>
+
+        <ul class="navigation-menu-collapse">
+            <li class="navigation-link-holder-collapse"><a href="index.html" class="navigation-link-collapse">HOME</a></li>
+            <li class="navigation-link-holder-collapse"><a href="views/projects.html" class="navigation-link-collapse">PROJECTS</a></li>
+            <li class="navigation-link-holder-collapse"><a href="views/about.html" class="navigation-link-collapse">ABOUT</a></li>
+            <li class="navigation-link-holder-collapse"><a href="views/contact.html" class="navigation-link-collapse">CONTACT</a></li>
+        </ul>
+    </nav>
+
+    <section class="hero-image-container">
+        <div class="hero-greeting-container">
+            <h1 class="hero-title">Narlock Web Design</h1>
+            <p class="hero-message">Welcome to my web design portfolio.</p>
+            <a href="views/projects.html"><button class="hero-button">View Projects</button></a>
+        </div>
+        <img src="styles/pictures/NWDLogo.png" loading="lazy" alt="NWD Logo Image black and white." class="hero-image">
+    </section>
+
+    <main class="home-content">
+        <section class="skills-container">
+            <h2 class="skills-header">Skills / Tools</h2>
+            <p class="skills-message">I design websites and applications with a focus on the end-user. Here are some of
+                the techniques and tools that I use for my projects.</p>
+            <div class="skillcard-container">
+                <div class="skills-card">
+                    <h2 class="skills-title">Design Strategies:</h2>
+                    <ul class="skill-list">
+                        <li class="skill">User-Centered Design</li>
+                        <li class="skill">Responsive Design</li>
+                        <li class="skill">Accessibility</li>
+                        <li class="skill">Content Management</li>
+                        <li class="skill">Graphic Design</li>
+                    </ul>
+                </div>
+
+                <div class="skills-card">
+                    <h2 class="skills-title">Design Tools:</h2>
+                    <ul class="skill-list">
+                        <li class="skill">Figma</li>
+                        <li class="skill">Photoshop</li>
+                        <li class="skill">Site Maps</li>
+                        <li class="skill">Wire Frames</li>
+                        <li class="skill">Prototypes</li>
+                    </ul>
+                </div>
+
+                <div class="skills-card">
+                    <h2 class="skills-title">Front-End:</h2>
+                    <ul class="skill-list">
+                        <li class="skill">HTML</li>
+                        <li class="skill">CSS</li>
+                        <li class="skill">JavaScript</li>
+                        <li class="skill">React JS</li>
+                        <li class="skill">Bootstrap</li>
+                    </ul>
+                </div>
+
+                <div class="skills-card">
+                    <h2 class="skills-title">Back-End:</h2>
+                    <ul class="skill-list">
+                        <li class="skill">Node JS</li>
+                        <li class="skill">Express</li>
+                        <li class="skill">MongoDB</li>
+                        <li class="skill">MySQL</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section class="about-container">
+            <img src="styles/pictures/NWDLogoTwo.png" loading="lazy" alt="NWD Logo Black." class="about-image">
+            <div class="about-text-container">
+                <h2 class="about-title">About Narlock Web Design:</h2>
+                <p class="about-content">My name is Andrew Narlock and I graduated from the University of Washington
+                    with a Bachelors in Communications, where I studied UX and web design. I enjoy building and
+                    designing websites in my free time. My
+                    approach to web design is focused on the intended user and building what best suites their needs.
+                </p>
+                <br>
+                <p class="about-content">I offer custom designs, ideal for small - medium size
+                    businesses. My services include consulting, static web design and developement, graphic design, and
+                    full stack application design and developement. Prices will vary depending on the scope of the
+                    project. For questions or business inquiries, please contact me at <a
+                        href="mailto:narlocka@gmail.com" class="email-link">narlocka@gmail.com</a>
+                </p>
+            </div>
+        </section>
+
+        <section class="carousel">
+            <h2 class="carousel-header">Projects:</h2>
+
+            <div class="carousel-container">
+                <div class="image-container"></div>
+            </div>
+
+            <div class="carousel-button-container">
+                <button class="carousel-left carousel-button">&lt;</button>
+                <button class="carousel-right carousel-button">&gt;</button>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="footer-logo-container">
+            <img src="styles/pictures/NWDLogoSmall.png" loading="lazy" alt="NWD Logo white." class="footer-logo">
+        </div>
+
+        <div class="footer-navigation-container">
+            <h2 class="footer-navigation-header">Thanks for visiting!</h2>
+            <ul class="footer-nav-links">
+                <li class="footer-link-list"><a href="index.html" class="footer-link">HOME</a></li>
+                <li class="footer-link-list"><a href="views/projects.html" class="footer-link">PROJECTS</a></li>
+                <li class="footer-link-list"><a href="views/about.html" class="footer-link">ABOUT</a></li>
+                <li class="footer-link-list"><a href="views/contact.html" class="footer-link">CONTACT</a></li>
+            </ul>
+        </div>
+
+        <div class="footer-contact-container">
+            <h3 class="footer-contact-header">Contact Information:</h3>
+            <p class="contact-info">For questions or business inquiries, please contact at <a
+                    href="mailto:narlocka@gmail.com" class="footer-email">narlocka@gmail.com</a></p>
+            <p class="footer-tag">This website was designed by Andrew Narlock - Narlock Web Design 2023</p>
+        </div>
+    </footer>
+
+    <script src="scripts/navigation.js" async defer></script>
+    <script src="scripts/carouseldata.js" async defer></script>
+    <script src="scripts/carousel.js" async defer></script>
+</body>
+
+</html>
